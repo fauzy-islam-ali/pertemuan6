@@ -1,3 +1,111 @@
-body {
+.name {
   color: red;
+}
+
+.rgb{
+  color: rgb(66, 17, 111);
+}
+
+.hex{
+  color: #ff000f;
+}
+
+.hsl{
+  color:hsl(20, 19%, 39%);
+}
+
+/* background */
+.image {
+  height: 200px;
+  background-image: url(123.webp);
+}
+.repeat {
+  height: 200px;
+  background-image: url(123.webp);
+  background-repeat: no-repeat;
+}
+.attachment {
+  height: 300px;
+  background-image: url(123.webp);
+  background-attachment: fixed;
+}
+.shorthand{
+    height: 200px;
+    background: url(123.webp) no-repeat;
+    color: #FFFFFF;
+}
+
+/* border */
+.solid{
+  border: 2px solid red;
+}
+.dotted{
+  border: 2px dotted blue;
+}
+.double{
+  border: 4px double green;
+}
+.dashed{
+  border: 2px dashed rebeccapurple;
+}
+
+/* text */
+.color{
+  color: blue;
+}
+.alignment{
+  background-color: aqua;
+  text-align: center;
+}
+
+/* text decoration */
+.overline{
+  text-decoration: overline red;
+}
+.line-through{
+  text-decoration: line-through blue;
+}
+.underline{
+  text-decoration: underline green;
+}
+.none-underline{
+  text-decoration: none;
+}
+
+/* text transform */
+.uppercase{
+  text-transform: uppercase;
+}
+.capitalize{
+  text-transform: capitalize;
+}
+.lowercase{
+  text-transform: lowercase;
+}
+
+/* text shadow */
+.shadow{
+  background-color: aqua;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+/* button */
+.button {
+  width: 70px;
+  height: 30px;
+  background-color: red;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: blue;
+}
+.button:active {
+  background-color: green;
+}
+.button p {
+  color: white;
+  text-align: center;
+  padding-top: 5px;
 }
